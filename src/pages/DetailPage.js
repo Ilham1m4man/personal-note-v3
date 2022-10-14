@@ -36,9 +36,7 @@ function DetailPage() {
         navigate(homePath);
     }
 
-    console.log(notes)
-
-    if (notes === null) {
+    if (notes === null || notes === undefined) {
         return <PageNotFound404 />
     }
 
