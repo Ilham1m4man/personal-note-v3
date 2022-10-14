@@ -115,7 +115,7 @@ class App extends React.Component {
               </header>
               <main>
                 <Routes>
-                  <Route path={homePath} element={<LoginPage loginSuccess={this.onLoginSuccess} />} />
+                  <Route path={error404Path} element={<LoginPage loginSuccess={this.onLoginSuccess} />} />
                   <Route path={registerPath} element={<RegisterPage />} />
                 </Routes>
               </main>
